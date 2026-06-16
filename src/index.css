@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@200;300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Montserrat", system-ui, -apple-system, sans-serif;
+  --font-serif: "Playfair Display", "Cinzel", Georgia, serif;
+  --font-accent: "Cinzel", "Playfair Display", serif;
+}
+
+/* Base custom styles to align with the elegant ivory beige mood */
+body {
+  background-color: #FAF6F0;
+  color: #3C332D;
+  font-family: var(--font-sans);
+}
+
+/* Hide scrollbars for slick, app-like containers */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Custom fade effects and glowing transitions */
+.backdrop-ivory {
+  background-color: rgba(250, 246, 240, 0.85);
+  backdrop-filter: blur(12px);
+}

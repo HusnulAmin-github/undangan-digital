@@ -1,0 +1,6 @@
+{
+  "name": "Elias & Julia Wedding",
+  "description": "An elegant, interactive digital wedding invitation for Elias & Julia featuring a live countdown, our story timeline, event details, and an interactive RSVP guestbook.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
